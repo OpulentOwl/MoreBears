@@ -14,13 +14,13 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
     public static final Block OPAL_ORE = registerBlock("opal_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.OPAL);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.MOREBEARS);
 
     public static final Block DEEPSLATE_OPAL_ORE = registerBlock("deepslate_opal_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroup.OPAL);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroup.MOREBEARS);
 
     public static final Block NETHERRACK_OPAL_ORE = registerBlock("netherrack_opal_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroup.OPAL);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroup.MOREBEARS);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
