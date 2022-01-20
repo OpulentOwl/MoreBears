@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "morebears:block/netherrack_opal_ore"
+  }
+}
