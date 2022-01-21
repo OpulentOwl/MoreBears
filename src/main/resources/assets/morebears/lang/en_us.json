@@ -1,10 +1,11 @@
 {
   "item.morebears.opal": "Opal",
+  "item.morebears.opal_sword": "Opal Sword",
   "item.morebears.bear_pelt": "Bear Pelt",
+  "item.morebears.bear_claw": "Bear Claw",
 
   "block.morebears.opal_ore": "Opal Ore",
   "block.morebears.deepslate_opal_ore": "Deepslate Opal Ore",
-  "block.morebears.netherrack_opal_ore": "Netherrack Opal Ore",
 
   "itemGroup.morebears.morebears": "More Bears"
 

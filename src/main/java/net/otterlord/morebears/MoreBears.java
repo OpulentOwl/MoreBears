@@ -2,6 +2,7 @@ package net.otterlord.morebears;
 
 import net.fabricmc.api.ModInitializer;
 import net.otterlord.morebears.block.ModBlocks;
+import net.otterlord.morebears.entity.ModEntities;
 import net.otterlord.morebears.item.ModItems;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -15,6 +16,7 @@ public class MoreBears implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModEntities.registerModEntities();
 
 	}
 }

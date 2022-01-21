@@ -13,8 +13,15 @@ public class ModItems {
     public static final Item OPAL = registerItem("opal",
             new Item(new FabricItemSettings().group(ModItemGroup.MOREBEARS)));
 
+    public static final Item BEAR_CLAW = registerItem("bear_claw",
+            new Item(new FabricItemSettings().group(ModItemGroup.MOREBEARS)));
+
     public static final Item BEAR_PELT = registerItem("bear_pelt",
             new Item(new FabricItemSettings().group(ModItemGroup.MOREBEARS)));
+
+    public static final Item OPAL_SWORD = registerItem("opal_sword",
+            new SwordItem(ModToolMaterial.OPAL, 2, 1f,
+                    new FabricItemSettings().group(ItemGroup.COMBAT)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(MoreBears.MOD_ID, name), item);
